@@ -6,7 +6,7 @@ dotenv.config();
 const USERNAME = process.env.DB_USERNAME;
 const PASSWROD = process.env.DB_PASSWORD;
 
-const URI = `mongodb+srv://${USERNAME}:${PASSWROD}@cluster0.5lx7gov.mongodb.net/myNotebook`
+const URI = `mongodb+srv://${USERNAME}:${PASSWROD}@cluster0.5lx7gov.mongodb.net/note-manager`
 
 
 const connectToMongo = async () => {
